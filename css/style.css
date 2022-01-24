@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+header {
+  background-color: aqua;
+  text-align: center;
+  margin: 0;
+  padding: 1.3rem;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  font-size: 1.8rem;
+}
+section {
+  padding: 20px;
+  background-image: url('../images/people.jpg');
+  background-size: cover;
+  overflow: hidden; /*conserta o Flot */
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.formContainer {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.formContainer {
+  max-width: 230px;
+  background-color: rgba(255, 255, 255, 0.822);
+  padding: 20px;
+  float: right;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.mb {
+  margin-bottom: 15px;
+}
+
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input[type='submit'] {
+  color: white;
+  background-color: #2fc0ca;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url('../images/arrow.jpg');
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #202121;
+  position: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.picture {
+  width: 160px;
+}
+
+.description {
+  color: white;
+  display: inline-block;
+  max-width: 40%;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.description p,
+.description h3 {
+  margin-bottom: 20px;
+}
+
+.description h3 {
+  font-size: 25px;
+}
+
+#buttomSubmit:hover {
+  background-color: #056168;
+  transition: 0.3s;
+}
